@@ -1,6 +1,7 @@
 from distutils.core import setup, Extension
 
-VERSION = "0.8.1" # Remember to change CHANGES.txt and netfilterqueue.pyx when version changes.
+# Ajout manuel afin de distinguer la version git et Pypi de la lib
+VERSION = "0.8.99" # Remember to change CHANGES.txt and netfilterqueue.pyx when version changes.
 
 try:
     # Use Cython
